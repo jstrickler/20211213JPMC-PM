@@ -45,6 +45,12 @@ print(actor)
 print(actor.replace('Chris', 'Liam'))
 print(actor.replace('emsw', ''))
 
+x = "abc"
+y = "def"
+m = x + y
+
+x = x + y
+
 
 
 

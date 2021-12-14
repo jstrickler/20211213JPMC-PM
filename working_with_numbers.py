@@ -24,12 +24,19 @@ x += 10  # x = x + 10
 x *= 4
 x //=3  # x = x // 3
 print(x)
+print()
 
 a = "123"
 b = 456
 print(int(a) + b)
 print(a + str(b))
 
+try:
+    x = int(a)
+except Exception as err:
+    print(err)
+else:
+    print(x * 10)
 
 
 

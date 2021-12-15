@@ -44,6 +44,25 @@ print(cities[0:3], cities[:3])
 print(cities[2:5])
 print(cities[-3:])
 print(cities[5:])
+print()
+print("cities: {}".format(cities))
+print()
+
+# for VAR ... in ITERABLE:
+for city in cities:
+    print(city)
+print()
+
+# iterable objects
+#  list str tuple bytes dict set frozenset  **generators**
+
+s = "abc"
+for char in s:
+    print(char)
+print()
+
+
+
 
 
 
